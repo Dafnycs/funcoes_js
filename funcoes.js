@@ -29,12 +29,23 @@ console.log(aumentoSalario(7500));
 
 
 // 6 - Crie uma função que imprima números de 1 até 10.
+function contar() {
+for (let i = 1; i <= 10; i++) {
+console.log(i); 
+}
+}
+contar(10);
 
 
 
 // 7- Crie uma função que some todos os números até 10.
-   function some (some1, some2, some3, some4, some5, some5, some6, some7, some8, some9, some10){
-   return some1 + some2 + some3 + some4+ some5 + some6 + some7 + some8 + some9 + some10
-  }
-  console.log(some(1,2,3,4,5,6,7,8,9,10))
+  function somar() {
+let soma = 0;
+for (let i = 1; i <= 10; i++) {
+soma = soma + i;
+}
+   return soma;
+}
+console.log(somar());
+
    
